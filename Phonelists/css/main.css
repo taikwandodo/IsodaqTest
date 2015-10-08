@@ -1,0 +1,300 @@
+table
+{  
+    font-size: small; 
+    font-family: verdana;
+    border-collapse: collapse;
+}
+
+td
+{
+    font-size: small;
+    font-family: verdana;
+}
+
+tr
+{
+    font-size: small;
+    font-family: verdana;
+}
+
+th
+{
+    font-size: small;
+    /*background-color: LightSteelBlue;*/
+    font-family: verdana;
+    /*text-align: left;*/
+}
+
+hr
+{
+	height: 1px;
+    color: navy;
+}
+
+body
+{
+    font-size: small;
+    font-family: verdana;
+    margin: 0 0 40px 0;
+    background-color: #F5F5F5;
+}
+
+select
+{
+	font-size: small;
+    font-family: verdana;
+    border-color: Black;
+    background-color: White;
+    border-width: 1px;
+    color: navy;
+}
+
+textarea
+{
+    font-size: small;
+    font-family: verdana;
+    border-width: 1px;
+    border-color: Black;
+    color: navy;
+}
+
+label
+{
+	font-size: small;
+	font-family: verdana;
+	color: navy;
+}
+
+caption
+{
+	font-size: small;
+	font-family: verdana;
+	color: navy;
+}
+
+img
+{
+	border: none 0px;
+    /*behavior:url("/daleweb/dbglobal/iepngfix.htc"); --too slow with large amounts of images (even if cached) */
+}
+
+dt {font-weight: bold;}
+dd {font-style: italic;}
+
+h1 {color: navy;}
+h2 {color: navy;}
+h3 {color: navy;}
+h4 {color: navy;}
+h5 {color: navy;}
+h6 {color: navy;}
+
+.divcentre
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/**** Test start ****/
+IMG.toggleopacity
+{
+	filter: alpha(opacity=50); /*IE*/
+	-moz-opacity: 0.5; /*Firefox*/
+	OPACITY: 0.5; /*CSS3*/
+}
+
+IMG.toggleopacity:hover
+{
+	filter: alpha(opacity=100); /*IE*/
+	-moz-opacity: 1; /*Firefox*/
+	opacity: 1;	/*CSS3*/
+}
+/**** Test end ****/
+
+
+A:link
+{
+    color: blue;
+    text-decoration: none;
+}
+A:visited
+{
+    color: blue;
+    text-decoration: none;
+}
+A:hover
+{
+    color: red;
+    text-decoration: none;
+}
+A:active
+{
+    color: blue;
+}
+
+
+A.link_text:link
+{
+    color: black;
+    text-decoration: none;
+}
+A.link_text:visited
+{
+    color: black;
+    text-decoration: none;
+}
+A.link_text:hover
+{
+    color: black;
+    text-decoration: none;
+}
+
+A.link_label:link
+{
+    color: navy;
+    text-decoration: none;
+}
+A.link_label:visited
+{
+    color: navy;
+    text-decoration: none;
+}
+A.link_label:hover
+{
+    color: navy;
+    text-decoration: underline;
+}
+
+A.link_underline:link
+{
+    color: blue;
+    text-decoration: none;
+}
+A.link_underline:visited
+{
+    color: blue;
+    text-decoration: none;
+}
+A.link_underline:hover
+{
+    color: red;
+    text-decoration: underline;
+}
+
+A.link_small:link
+{
+    color: blue;
+    text-decoration: none;
+    font-size: x-small;
+}
+A.link_small:visited
+{
+    color: blue;
+    text-decoration: none;
+    font-size: x-small;
+}
+A.link_small:hover
+{
+    color: blue;
+    text-decoration: none;
+    font-size: x-small;
+}
+
+
+A.link_tel:link
+{
+    color: blue;
+    text-decoration: underline;
+}
+A.link_tel:visited
+{
+    color: blue;
+    text-decoration: none;
+}
+A.link_tel:hover
+{
+    color: red;
+    text-decoration: none;
+}
+
+BLOCKQUOTE.debug
+{
+	border: solid 1px black;
+	background-color: yellow;
+	padding: 4px 4px 4px 4px;
+	font-size: x-small;
+	font-family: verdana;
+}
+
+.infopreview
+{
+	border: solid 1px #CCCCCC;
+	background-color: #FFFFE1;
+	font-size: x-small;
+	padding: 4px 4px 4px 4px;
+	font-family: verdana;
+}
+
+TR.ColorHeaderRow 
+{
+	/* TH(TD) is used for a header */
+	background-color: #B0C4DE; /* LightSteelBlue */
+	border: solid 1px #AAAAAA;
+	color: navy;
+	/*height: 24px;*/
+}
+
+TD.CollapseColorColumn /* these fonts/sizes are already default */
+						/* this is not the place for individual padding/heights */
+{
+    font-size: small;
+    border: solid 1px #AAAAAA;
+    font-family: verdana;
+    color: navy;
+    background-color: #F5F5F5; /* WhiteSmoke */
+	/*padding-left: 6px;*/
+	/*height: 20px;*/
+}
+
+TD.ColorColumn /* these fonts/sizes are already default */
+						/* this is not the place for individual padding/heights */
+{
+    font-size: small;
+    border: solid 1px #AAAAAA;
+    font-family: verdana;
+    color: navy;
+}
+
+
+TD.CollapseColumn
+{
+    font-size: small;
+    border: solid 1px #AAAAAA;
+    font-family: verdana;
+	/*padding-left: 4px;*/
+}
+
+TR.CollapseRow
+{
+    font-size: small;
+    font-family: verdana;
+    /*height: 24px;*/
+	background-color: #F5F5F5; /* WhiteSmoke */
+}
+
+TR.CollapseRow_Alt
+{
+    font-size: small;
+    font-family: verdana;
+    /*height: 24px;*/
+	background-color: White;
+}
+
+/* for main menu at a later stage
+A.globalmenulist:link{COLOR: navy;text-decoration: none;}
+A.globalmenulist:visited{COLOR: navy;text-decoration: none;}
+A.globalmenulist:hover{COLOR: red;text-decoration: none;}
+TABLE.globalmenulist{font-size: small;font-family: verdana;TEXT-ALIGN: center;}
+TR.globalmenulist{font-size: small;font-family: verdana;TEXT-ALIGN: center;}
+TD.globalmenulist{font-size: small;font-family: verdana;TEXT-ALIGN: center;border: solid 1px maroon;}
+*/
